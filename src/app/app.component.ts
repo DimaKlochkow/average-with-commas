@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'Angular';
 }
-var numbers = prompt("Введите числа через запятую!".split(','));
+var numbers = prompt("Введите числа через запятую!");
 var str = numbers.split(',');
 console.log(str);
 var sum = 0;
